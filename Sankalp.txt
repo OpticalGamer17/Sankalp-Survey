@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Sankalp Gay? | Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Is Sankalp Gay?</h1>
+    </header>
+
+    <main>
+        <form id="surveyForm">
+            <label for="timeInput">What time will you be getting on?</label>
+            <input type="text" id="timeInput" name="time">
+
+            <label for="siegeInput">Will we be playing Siege?</label>
+            <select id="siegeInput" name="siege">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="battlefrontInput">Will we be playing Battlefront 2?</label>
+            <select id="battlefrontInput" name="battlefront">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="titanfallInput">Will we be playing Titanfall 2?</label>
+            <select id="titanfallInput" name="titanfall">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="jasonInput">Should I get Jason on?</label>
+            <select id="jasonInput" name="jason">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <!-- Add your footer content here -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
